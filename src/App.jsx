@@ -8,6 +8,7 @@ function App()
   const [pacientes,setPacientes] = useState([]);
   const [paciente,setPaciente] = useState({});
 
+  
   //useEffect para obtener los datos de LS
   useEffect(()=>{
     const obtenerLS = ()=>{
